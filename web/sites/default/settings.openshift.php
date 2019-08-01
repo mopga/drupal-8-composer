@@ -1,8 +1,8 @@
 <?php
 $databases['default']['default'] = array (
-   'database' => getenv('PG_DATABASE'),
-   'username' => getenv('PG_USER'),
-   'password' => getenv('PG_PASSWORD'),
+   'database' => getenv('POSTGRES_DB'),
+   'username' => getenv('POSTGRES_USER'),
+   'password' => getenv('POSTGRES_PASSWORD'),
    'host' => getenv('PG_HOST'),
    'port' => getenv('PG_PORT'),
    'namespace' => 'Drupal\\Core\\Database\\Driver\\pgsql',
